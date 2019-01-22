@@ -1,2 +1,9 @@
 1548086021536	Move file
 1548087892194	Delete element
+1548154602211	Rename local variable 'words'
+1548154884782	Rename local variable 'list'
+1548157216194	Rename local variable 'sortedWordToAnagram'
+1548157754735	Rename local variable 'collection'
+1548157766791	Rename local variable 'collection'
+1548158348618	Delete element
+1548158694223	Delete element
