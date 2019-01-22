@@ -1,0 +1,16 @@
+import java.security.InvalidParameterException;
+
+public class BlackJack {
+	
+	private static int calculateDifferenceBetween(int firstNumber, int secondNumber) {
+		
+	}
+	
+	public static int play(int firstNumber, int secondNumber) throws IllegalArgumentException {
+		if (firstNumber < 1 || secondNumber < 1) {
+			throw new IllegalArgumentException("Values must be greater than 0.");
+		}
+		int firstNumberDifference = 
+	}
+	
+}

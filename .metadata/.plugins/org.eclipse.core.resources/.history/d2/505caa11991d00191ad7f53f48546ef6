@@ -1,0 +1,12 @@
+
+public class Barrier {
+	
+	private void raiseBarrier() {}
+	
+	public Barrier(boolean isRaised) {
+		if (isRaised) {
+			raiseBarrier();
+		}
+	}
+	
+}

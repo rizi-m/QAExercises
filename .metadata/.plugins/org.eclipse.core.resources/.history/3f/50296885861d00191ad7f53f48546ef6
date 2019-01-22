@@ -1,0 +1,8 @@
+
+public class BlackJack {
+	
+	public static int play(int firstNumber, int secondNumber) {
+		
+	}
+	
+}

@@ -1,0 +1,26 @@
+public class BlackJack {
+	
+	private static boolean isFirstWinner(int firstNumber, int secondNumber) {
+		return ((firstNumber < 22 && 
+				secondNumber < 22 && 
+				firstNumber > secondNumber) 
+				||
+				(firstNumber < 22 && 
+				secondNumber > 22));
+	}
+	
+	private static void checkInput(int firstNumber, int secondNumber) {
+		if (firstNumber < 1 || secondNumber < 1) {
+			throw new IllegalArgumentException("Values must be greater than 0.");
+		}
+	}
+	
+	public static int play(int firstNumber, int secondNumber) throws IllegalArgumentException {
+
+		if (isFirstWinner(firstNumber, secondNumber)) {
+			return firstNumber;
+		}
+		return secondNumber;
+	}
+	
+}

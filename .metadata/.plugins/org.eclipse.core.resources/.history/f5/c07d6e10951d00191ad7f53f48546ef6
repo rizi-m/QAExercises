@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(Anagrams.sortString("polic"));
+		System.out.println(Anagrams.readWordsFromFile("words.txt"));
+	}
+
+}

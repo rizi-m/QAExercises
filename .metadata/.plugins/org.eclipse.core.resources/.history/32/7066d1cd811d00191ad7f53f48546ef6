@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public int add(int firstNumber, int secondNumber) {
+		return firstNumber + secondNumber;
+	}
+	
+	public static void main(String[] args) {
+		String outputMessage = "Hello World!";
+		System.out.println(outputMessage);
+	}
+
+}

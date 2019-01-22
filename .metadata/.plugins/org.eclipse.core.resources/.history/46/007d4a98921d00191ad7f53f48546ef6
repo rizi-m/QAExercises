@@ -1,0 +1,24 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
+public class Anagrams {
+
+	public static String[] readWordsFromFile(String fileName) {
+		Path filePath = Paths.get(fileName);
+		try {
+			List<String> words = Files.readAllLines(filePath);
+			return (String[]) words.toArray();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return new String[0];
+	}
+	
+	public static String sortString(String inputString) {
+		List<String> inputCharacters = inputString.split("");
+	}
+	
+}

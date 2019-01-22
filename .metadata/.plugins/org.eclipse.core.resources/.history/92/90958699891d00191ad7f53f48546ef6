@@ -1,0 +1,24 @@
+public class BlackJack {
+	
+
+	public static int play(int firstNumber, int secondNumber) throws IllegalArgumentException {
+		if (firstNumber < 1 || secondNumber < 1) {
+			throw new IllegalArgumentException("Values must be greater than 0.");
+		}
+		int firstNumberDifference = 21 - firstNumber;
+		int secondNumberDifference = 21 - secondNumber;
+		if (firstNumberDifference < 0 && secondNumberDifference < 0) {
+			return 0;
+		}
+		if ((firstNumberDifference >= 0 && 
+			secondNumberDifference >= 0 && 
+			firstNumberDifference < secondNumberDifference) 
+			||
+			(firstNumberDifference >= 0 && 
+			secondNumberDifference < 0)) {
+			return firstNumber;
+		}
+		return secondNumber;
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(BlackJack.play(1, 1));
+		System.out.println(BlackJack.play(22, 22));
+		System.out.println(BlackJack.play(22, 1));
+		System.out.println(BlackJack.play(1, 22));
+		
+		
+
+	}
+
+}

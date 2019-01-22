@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int firstNumber = 10;
+		int secondNumber = 20;
+		int total = Calculator.add(firstNumber, secondNumber);
+		String outputMessage = "The sum of " + firstNumber +
+				" and " + secondNumber + " is: " + total;
+		System.out.println(outputMessage);
+		
+		Calculator calculator = new Calculator()
+				
+				
+	}
+
+}

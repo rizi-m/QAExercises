@@ -1,0 +1,8 @@
+
+public class Barrier {
+
+	public Barrier(boolean isRaised) {
+		
+	}
+	
+}
