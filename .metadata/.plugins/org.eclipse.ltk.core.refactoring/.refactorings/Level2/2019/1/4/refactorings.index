@@ -1,2 +1,6 @@
 1548081243511	Rename local variable 'firstNumberDifference'
 1548081262519	Rename local variable 'secondNumberDifference'
+1548161849763	Rename local variable 'personList'
+1548163076529	Rename type 'Place'
+1548165062098	Move compilation units
+1548165083399	Move compilation unit

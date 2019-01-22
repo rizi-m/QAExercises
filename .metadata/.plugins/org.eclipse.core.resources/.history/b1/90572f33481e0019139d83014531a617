@@ -1,0 +1,10 @@
+
+public class Plane extends Vehicle {
+
+	
+	public Plane(int vehicleID, String make, String model, int fuelCapacity) {
+		super(vehicleID, make, model, fuelCapacity);
+		// TODO Auto-generated constructor stub
+	}
+
+}

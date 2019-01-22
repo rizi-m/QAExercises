@@ -1,0 +1,6 @@
+
+public class Person {
+	private String person;
+	private int age;
+	private String jobTitle;
+}

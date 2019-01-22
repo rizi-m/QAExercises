@@ -1,0 +1,8 @@
+
+public class TooHot {
+	
+	
+	private static boolean tooHot(int temperature, boolean isSummer) {
+		
+	}
+}

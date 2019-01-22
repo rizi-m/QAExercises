@@ -1,0 +1,14 @@
+
+public class Vehicle {
+	
+	private int fuel;
+	private int fuelCapacity;
+	private boolean isOn;
+	private int vehicleID;
+	private String make;
+	private String model;
+	
+	
+	
+	
+}

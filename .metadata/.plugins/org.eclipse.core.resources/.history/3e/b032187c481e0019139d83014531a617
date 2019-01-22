@@ -1,0 +1,4 @@
+
+public class Garage {
+	ArrayList<Vehicle> vehicles = new ArrayList<>();
+}
