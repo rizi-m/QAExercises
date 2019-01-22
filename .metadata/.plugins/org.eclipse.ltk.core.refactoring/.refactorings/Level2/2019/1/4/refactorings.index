@@ -4,3 +4,5 @@
 1548163076529	Rename type 'Place'
 1548165062098	Move compilation units
 1548165083399	Move compilation unit
+1548173348321	Rename field 'Age'
+1548174322180	Rename local variable 'words'

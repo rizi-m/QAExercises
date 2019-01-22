@@ -1,0 +1,29 @@
+package paint;
+
+public class Paint {
+
+	private String name;
+	private float price;
+	private int areaPerLitre;
+	
+	public Paint(String name, float price, int areaPerLitre) {
+		super();
+		this.name = name;
+		this.price = price;
+		this.areaPerLitre = areaPerLitre;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public int getAreaPerLitre() {
+		return areaPerLitre;
+	}
+	
+
+}

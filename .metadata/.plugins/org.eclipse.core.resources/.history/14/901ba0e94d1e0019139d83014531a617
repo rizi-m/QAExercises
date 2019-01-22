@@ -1,0 +1,11 @@
+package paint;
+
+import java.util.ArrayList;
+
+public class PaintWizard {
+
+	private ArrayList<Paint> paints = new ArrayList<>();
+	
+	
+
+}

@@ -1,0 +1,26 @@
+package paint;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public class PaintWizard {
+
+	private ArrayList<Paint> paints = new ArrayList<>();
+	
+	public void add(Paint paint) {
+		paints.add(paint);
+	}
+	
+	public Paint getMostEfficientPaint(int roomArea) {
+		return paints.stream()
+			.min(Comparator.comparing((paint) -> roomArea % paint.getAreaCovered()))
+			.get();
+	}
+
+	
+	public static void main(String[] args) {
+		PaintWizard wizard = new PaintWizard();
+		
+		Paint cheapoMax = new Paint("CheapoMax", 20, 19.99, 10);
+	}
+}

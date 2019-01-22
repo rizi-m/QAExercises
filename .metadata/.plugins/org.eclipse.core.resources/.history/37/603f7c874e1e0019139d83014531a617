@@ -1,0 +1,17 @@
+package paint;
+
+import java.util.ArrayList;
+
+public class PaintWizard {
+
+	private ArrayList<Paint> paints = new ArrayList<>();
+	
+	public void add(Paint paint) {
+		paints.add(paint);
+	}
+	
+	public Paint getMostEfficientPaint(int roomArea) {
+		int smallestWase = roomArea + 1;
+	}
+
+}

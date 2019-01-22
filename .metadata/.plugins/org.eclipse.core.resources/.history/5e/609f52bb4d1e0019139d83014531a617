@@ -1,0 +1,11 @@
+package paint;
+
+public class Paint {
+
+	private String name;
+	private float price;
+	private int areaPerLitre;
+	
+	
+
+}
