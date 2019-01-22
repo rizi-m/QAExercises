@@ -27,7 +27,6 @@ public class Anagrams {
 	
 	public static String sortString(String inputString) {
 		List<String> inputCharacters = Arrays.asList(inputString.split(""));
-		
 		List<String> sortedCharacters = inputCharacters.stream()
 			.sorted()
 			.collect(Collectors.toList());

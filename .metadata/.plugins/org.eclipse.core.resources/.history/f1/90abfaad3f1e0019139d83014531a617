@@ -1,0 +1,6 @@
+
+public class ParametersOperators {
+	public static int sum(int firstNumber, int secondNumber) {
+		return firstNumber + secondNumber;
+	}
+}

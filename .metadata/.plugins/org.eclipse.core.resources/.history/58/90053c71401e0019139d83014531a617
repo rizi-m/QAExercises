@@ -1,0 +1,16 @@
+
+public class Conditionals {
+	public static int sumIfTrueElseMultiply(int firstNumber, int secondNumber, boolean condition) {
+		if (condition) {
+			return firstNumber + secondNumber;
+		}
+		else return firstNumber * secondNumber;
+	}
+	
+	public static void main(String[] args) {
+		int result = sumIfTrueElseMultiply(2, 3, true);
+		System.out.println(result);
+		result = sumIfTrueElseMultiply(3, 3, false);
+		System.out.println(result);
+	}
+}
