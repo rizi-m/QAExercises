@@ -1,3 +1,4 @@
+package main;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -83,8 +84,6 @@ public class Anagrams {
 		int longestLengthAnagram = getLengthOfLongestAnagram(commonAnagrams);
 		
 		List<ArrayList<String>> bestAnagrams = collectAnagramsOfSize(commonAnagrams, longestLengthAnagram);
-		
-		System.out.println(bestAnagrams);
 		
 		return bestAnagrams;
 	}
