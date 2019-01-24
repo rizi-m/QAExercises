@@ -49,7 +49,7 @@ public class PaintWizard {
 		wizard.add(new Paint("CheapoMax", 20, 19.99f, 10));
 		wizard.add(new Paint("AverageJoes", 15, 17.99f, 11));
 		wizard.add(new Paint("DuluxourousPaints", 10, 25.00f, 20));
-
+		
 
 	}
 }

@@ -1,9 +1,0 @@
-package paint;
-
-public class PaintWizard {
-
-	public PaintWizard() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -6,3 +6,11 @@
 1548165083399	Move compilation unit
 1548173348321	Rename field 'Age'
 1548174322180	Rename local variable 'words'
+1548322273892	Move compilation unit
+1548322336072	Delete element
+1548322359212	Move compilation units
+1548335374405	Extract method 'removePrintMedia'
+1548338149210	Rename local variable 'bookElement'
+1548338206001	Extract method 'updatePrintMedia'
+1548345641538	Rename type 'Person'
+1548345656932	Rename type 'PersoWorking'

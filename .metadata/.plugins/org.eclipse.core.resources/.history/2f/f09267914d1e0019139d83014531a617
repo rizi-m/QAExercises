@@ -1,9 +1,0 @@
-package paint;
-
-public class PaintWizard {
-
-	public PaintWizard() {
-	
-	}
-
-}
