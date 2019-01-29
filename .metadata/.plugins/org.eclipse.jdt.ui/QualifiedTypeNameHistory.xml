@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="java.nio.file.Files"/>
 <fullyQualifiedTypeName name="java.nio.file.Path"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.AbstractCollection"/>
@@ -34,15 +33,12 @@
 <fullyQualifiedTypeName name="main.BlackJack"/>
 <fullyQualifiedTypeName name="main.UniqueSum"/>
 <fullyQualifiedTypeName name="main.TooHot"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="library.source.BookModifier"/>
 <fullyQualifiedTypeName name="library.source.Modifier"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="library.source.Library"/>
 <fullyQualifiedTypeName name="library.source.PrintMediaType"/>
 <fullyQualifiedTypeName name="org.hamcrest.core.IsInstanceOf"/>
-<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="library.source.LibraryItem"/>
 <fullyQualifiedTypeName name="library.source.PrintMedia"/>
 <fullyQualifiedTypeName name="library.source.Book"/>
@@ -51,4 +47,14 @@
 <fullyQualifiedTypeName name="library.source.Utils"/>
 <fullyQualifiedTypeName name="java.security.InvalidParameterException"/>
 <fullyQualifiedTypeName name="library.source.Person"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="main.Results"/>
+<fullyQualifiedTypeName name="main.ABC"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.security.GeneralSecurityException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="main.PureFunctions"/>
 </qualifiedTypeNameHistroy>

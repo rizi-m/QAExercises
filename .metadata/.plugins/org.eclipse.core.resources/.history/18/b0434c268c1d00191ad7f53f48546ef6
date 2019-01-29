@@ -1,8 +1,0 @@
-
-public class UniqueSum {
-	
-	public static void calculate(int firstNumber, int secondNumber, int thirdNumber) {
-		
-	}
-	
-}

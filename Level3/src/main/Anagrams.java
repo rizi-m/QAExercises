@@ -41,7 +41,6 @@ public class Anagrams {
 			.collect(Collectors.toList());
 	}
 	
-	
 	private static int getMaxNumberOfAnagrams(Collection<ArrayList<String>> anagrams) {
 		return anagrams.stream()
 			.max(Comparator.comparing(ArrayList::size))
