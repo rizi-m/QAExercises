@@ -1,8 +1,0 @@
-
-public class ReturnTypes {
-	public static String getMessage() {
-		return "Hello World";
-	}
-	
-	
-}

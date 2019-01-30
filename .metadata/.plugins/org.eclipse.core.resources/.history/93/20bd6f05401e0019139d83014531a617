@@ -1,6 +1,0 @@
-
-public class Conditionals {
-	public static int sumIfTrueElseMultiply(int firstNumber, int secondNumber, boolean condition) {
-		
-	}
-}

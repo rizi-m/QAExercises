@@ -1,5 +1,0 @@
-
-public class TooHot {
-	private static int temperature;
-	private static boolean isSummer;
-}

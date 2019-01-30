@@ -1,9 +1,0 @@
-package paint;
-
-public class Paint {
-
-	public Paint() {
-		
-	}
-
-}

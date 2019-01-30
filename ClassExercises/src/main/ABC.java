@@ -9,6 +9,7 @@ public class ABC {
 	
 	public static void go() {
 		int result = complexCalcultion();
+		System.out.println(result);
 	}
 	
 	private static int complexCalcultion() {
