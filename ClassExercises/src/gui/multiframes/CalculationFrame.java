@@ -12,14 +12,13 @@ public class CalculationFrame extends Frame {
 	private TextField first = new TextField();
 	private TextField second = new TextField();
 	private TextField third = new TextField();
+	private Button operatorButton = new Button();
+	private BiFunction<Integer, Integer, Integer> operator;
 	
-	public CalculationFrame(String title, String buttonText, BiFunction<Integer, Integer, Integer> operator) {
-		super(title);
+	public CalculationFrame() {
 		setLayout(new GridLayout(4, 2));
 		
-		Button operatorButton = new Button(buttonText);
-		operatorButton.addActionListener(e -> operateTwoTextFieldsAndAddToThird(operator));
-		
+		operatorButton.addActionListener((e) -> operateTwoTextFieldsAndAddToThird());
 		
 		add(new Label("First:"));
 		add(first);
@@ -30,10 +29,18 @@ public class CalculationFrame extends Frame {
 		add(new Label("Result:"));
 		add(third);
 		
-		setSize(400, 200);
+
 	}
 	
-	private void operateTwoTextFieldsAndAddToThird(BiFunction<Integer, Integer, Integer> operator) {
+	public void setOperator(String title, String buttonText, BiFunction<Integer, Integer, Integer> operator) {
+		setTitle(title);
+		operatorButton.setLabel(buttonText);
+		this.operator = operator;
+		setSize(400, 200);
+		setVisible(true);
+	}
+	
+	private void operateTwoTextFieldsAndAddToThird() {
 		try {
 			int answer = operator.apply(Integer.parseInt(first.getText()), Integer.parseInt(second.getText()));
 			third.setText(answer+"");
